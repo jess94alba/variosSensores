@@ -1,0 +1,11 @@
+@VariosSensores_HostAddress = http://localhost:5009
+
+GET {{VariosSensores_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{VariosSensores_HostAddress}}/todos/1
+Accept: application/json
+
+###
